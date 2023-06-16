@@ -33,7 +33,7 @@ Feature: Facebooklogin Feature
   Scenario: Verify with valid login with hardcoded data
     Given launch the Browser and Enter the URL
     And Enter the Username "kumar.sathish189@gmail.com"
-    And Enter the password as "Admin@123"
+    And Enter the password as "test"
     When I Click on login button
 		And Wait for some time
     Then Login should be sucessfull

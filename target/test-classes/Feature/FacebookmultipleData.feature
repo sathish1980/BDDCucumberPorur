@@ -16,11 +16,11 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@SIT
+#@SIT
 Feature: Title of your feature
   I want to use this template for my feature file
 
-  @SIT
+ # @SIT
  Scenario Outline: Verify with valid login with multiple data
     Given launch the Browser and Enter the URL
     And Enter the Username as <name>
